@@ -55,3 +55,5 @@ A Common Misconception about Memory: You might think creating an object is simpl
 ✅ Build a Strong Foundation: When you learn complex frameworks in the future, this underlying knowledge will make the process much smoother.
 
 Note: This document covers implementation details of the CPython interpreter. It might seem a bit dry at first, but trust me—mastering these concepts will lead to a qualitative leap in your programming skills.
+
+Note:My English is bad,So there is no English version for the time being. If anyone has good suggestions, you can send me an issue or a pull request.
