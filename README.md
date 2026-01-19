@@ -1,3 +1,6 @@
+Python Core Principles: A Beginner's Guide to Internals
+A "foundational guide" to the inner workings of Python. This repository is designed to help Python beginners and intermediate learners step out of the "syntax-only" comfort zone, deeply understand how the language runs under the hood, and build a solid foundation for becoming a great engineer.
+
 📖 Introduction
 Many beginners hit a wall after mastering print("Hello World"): You don't know why your code runs slowly, you're confused by why variables change unexpectedly, or you find yourself speechless when asked about "underlying principles" in an interview.
 
@@ -45,10 +48,10 @@ Context Managers: The with statement is not just for opening files; it is an ele
 A Common Misconception about Memory: You might think creating an object is simple, but internally, Python acts like it's building with Lego blocks. For small objects (<512 bytes), Python reuses pre-allocated memory chunks (Pools) instead of asking the Operating System for RAM every single time. Understanding this helps you see why creating and destroying objects frequently isn't actually that slow.
 
 🚀 The Value of This Guide for Beginners
-Ace Technical Interviews: These are high-frequency questions used to distinguish "beginners" from "engineers."
+✅ Ace Technical Interviews: These are high-frequency questions used to distinguish "beginners" from "engineers."
 
-Avoid Pitfalls: Once you understand the principles, you will naturally avoid common mistakes like "Circular References" or the "Mutable Default Argument Trap."
+✅ Avoid Pitfalls: Once you understand the principles, you will naturally avoid common mistakes like "Circular References" or the "Mutable Default Argument Trap."
 
-Build a Strong Foundation: When you learn complex frameworks in the future, this underlying knowledge will make the process much smoother.
+✅ Build a Strong Foundation: When you learn complex frameworks in the future, this underlying knowledge will make the process much smoother.
 
 Note: This document covers implementation details of the CPython interpreter. It might seem a bit dry at first, but trust me—mastering these concepts will lead to a qualitative leap in your programming skills.
